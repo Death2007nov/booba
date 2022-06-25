@@ -1,0 +1,30 @@
+[Source Media Descriptions]
+    "1", "PC Logo for Windows", "setup.exe", ""
+
+[Programs]
+     1, logo\logo.ex_,   ,,,,,,,,,logo.exe,   ,,,452592,, 3,,,VITAL
+     1, logo\pcxwin.dl_, ,,,,,,,,,pcxwin.dll, ,,,  9728,, 3,,,VITAL
+     1, logo\gxwin.dl_,  ,,,,,,,,,gxwin.dll,  ,,,  7168,, 3,,,VITAL
+     1, readme.wri,      ,,,,,,,,,readme.wri, ,,,  3200,, 3,,,
+
+[Help]
+     1, help\logo.hl_,   ,,,,,,,,,logo.hlp,   ,,,776750,,10,,,
+
+[Samples]
+     1, setup\logopgm.ico,,,,,,,,,,logopgm.ico,,,,  766,, 3,,,
+     1, logo\shed.lg_,   ,,,,,,,,,shed.lgo,   ,,, 11882,, 3,,,
+     1, logo\windows.lg_,,,,,,,,,,windows.lgo,,,,  1725,, 3,,,
+     1, logo\music.lg_,  ,,,,,,,,,music.lgo,  ,,,  5000,, 3,,,
+     1, logo\shapes.lg_, ,,,,,,,,,shapes.lgo, ,,,  1404,, 3,,,
+     1, logo\squiral.lg_,,,,,,,,,,squiral.lgo,,,,   523,, 3,,,
+
+[Default File Settings]
+"STF_BACKUP"     = ""
+"STF_COPY"       = "YES"
+"STF_DECOMPRESS" = "YES"
+"STF_OVERWRITE"  = "ALWAYS"
+"STF_READONLY"   = ""
+"STF_ROOT"       = ""
+"STF_SETTIME"    = ""
+"STF_TIME"       = ""
+"STF_VITAL"      = ""

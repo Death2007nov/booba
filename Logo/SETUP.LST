@@ -1,0 +1,23 @@
+[Params]
+	WndTitle   = PC Logo for Windows Setup
+	WndMess    = Loading Setup program files, please wait...
+	TmpDirSize = 500
+	TmpDirName = ~pclogo.tmp
+	CmdLine    = _mstest setup.mst /C "/S %s %s"
+	DrvModName = DSHELL
+
+[Files]
+	setup.inf          = setup.inf
+	setup\setup.ms_    = setup.mst
+	setup\setupapi.in_ = setupapi.inc
+	setup\msdetect.in_ = msdetect.inc
+	setup\msregdb.in_  = msregdb.inc
+	setup\msdetstf.dl_ = msdetstf.dll
+	setup\mscomstf.dl_ = mscomstf.dll
+	setup\msinsstf.dl_ = msinsstf.dll
+	setup\msuilstf.dl_ = msuilstf.dll
+	setup\msshlstf.dl_ = msshlstf.dll
+	setup\logodlgs.dl_ = logodlgs.dll
+	setup\ver.dl_      = ver.dll
+	setup\_mstest.ex_  = _mstest.exe 
+	setup\_mssetup.ex_ = _mssetup.exe
